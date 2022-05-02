@@ -10,7 +10,7 @@ module.exports = {
       url: "https://eth-rinkeby.alchemyapi.io/v2/123abc123abc123abc123abc123abcde",
       accounts: []
     },
-    gather: {
+    gather_testnet: {
      url: "https://testnet.gather.network",
      accounts: [process.env.gatherPrivateKey],
      port: 80,
