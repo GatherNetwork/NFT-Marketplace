@@ -15,9 +15,13 @@ module.exports = {
      accounts: [process.env.gatherPrivateKey],
      port: 80,
      network_id: "*",
-      // gas: 4700000,
-      // skipDryRun: true
     },
+    gather: {
+      url: "https://mainnet.gather.network",
+      accounts: [process.env.gatherPrivateKey],
+      port: 80,
+      network_id: "*",
+     },
   },
   solidity: "0.8.4",
   paths: {
